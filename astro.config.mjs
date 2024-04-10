@@ -2,7 +2,6 @@ import tailwind from "@astrojs/tailwind"
 import Compress from "astro-compress"
 import icon from "astro-icon"
 import { defineConfig } from "astro/config"
-import vercel from '@astrojs/vercel/serverless';
 import Color from "colorjs.io"
 import rehypeAutolinkHeadings from "rehype-autolink-headings"
 import rehypeKatex from "rehype-katex"
@@ -24,10 +23,8 @@ const oklchToHex = (str) => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://vip-shadesofdeath.vercel.app/",
+  site: "https://fuwari.vercel.app/",
   base: "/",
-  output: 'server',
-  adapter: vercel(),
   integrations: [
     tailwind(),
     swup({

@@ -24,7 +24,7 @@ const oklchToHex = (str) => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://shadesofdeath.vercel.app/",
+  site: "https://vip-shadesofdeath.vercel.app/",
   base: "/",
   output: 'server',
   adapter: vercel(),

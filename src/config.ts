@@ -36,14 +36,9 @@ export const profileConfig: ProfileConfig = {
   bio: 'Yaptığım uygulamaları paylaşmayı ve ekstradan insanları bilgilendirecek paylaşımlar yapıyorum..',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Instagram',
+      icon: 'fa6-brands:instagram',
+      url: 'https://www.instagram.com/_berkay.ay/',
     },
     {
       name: 'GitHub',

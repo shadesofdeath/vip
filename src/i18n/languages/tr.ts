@@ -17,9 +17,9 @@ export const tr: Translation = {
   [Key.noTags]: 'Etiket yok',
 
   [Key.wordCount]: 'kelime',
-  [Key.wordsCount]: 'kelimeler',
+  [Key.wordsCount]: 'kelime',
   [Key.minuteCount]: 'dakika',
-  [Key.minutesCount]: 'dakikalar',
+  [Key.minutesCount]: 'dakika',
   [Key.postCount]: 'gönderi',
   [Key.postsCount]: 'gönderiler',
 

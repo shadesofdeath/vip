@@ -1,8 +1,8 @@
 ---
 title: Draft Example
 published: 2022-07-01
-tags: []
-category: None
+tags: [Demo]
+category: Examples
 draft: true
 ---
 

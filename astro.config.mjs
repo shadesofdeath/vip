@@ -1,5 +1,6 @@
 import svelte from '@astrojs/svelte'
 import tailwind from '@astrojs/tailwind'
+import '@astrojs/vercel/serverless'
 import swup from '@swup/astro'
 import Compress from 'astro-compress'
 import icon from 'astro-icon'

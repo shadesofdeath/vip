@@ -33,7 +33,7 @@ export default defineConfig({
   integrations: [
     tailwind(),
     swup({
-      theme: false,
+      theme: true,
       animationClass: 'transition-',
       containers: ['main'],
       smoothScrolling: true,

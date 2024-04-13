@@ -22,4 +22,4 @@ Microsoft Defender Antivirüs ya da üçüncü taraf bir antivirüs çözümü s
 
 ## İndir
 
-[Dosyayı İndir](https://pixeldrain.com/u/QSMd1AcU)
+[Dosyayı İndir](https://pixeldrain.com/u/S3nEUaUd)

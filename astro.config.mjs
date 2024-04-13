@@ -1,6 +1,5 @@
 import svelte from '@astrojs/svelte'
 import tailwind from '@astrojs/tailwind'
-import vercel from '@astrojs/vercel/serverless'
 import swup from '@swup/astro'
 import Compress from 'astro-compress'
 import icon from 'astro-icon'
@@ -27,13 +26,10 @@ export default defineConfig({
   site: 'https://vip-shadesofdeath.vercel.app/',
   base: '/',
   output: 'server',
-  adapter: vercel({
-    webAnalytics: { enabled: true },
-  }),
   integrations: [
     tailwind(),
     swup({
-      theme: false,
+      theme: true,
       animationClass: 'transition-',
       containers: ['main'],
       smoothScrolling: true,

@@ -25,7 +25,6 @@ const oklchToHex = str => {
 export default defineConfig({
   site: 'https://vip-shadesofdeath.vercel.app/',
   base: '/',
-  output: 'server',
   integrations: [
     tailwind(),
     swup({

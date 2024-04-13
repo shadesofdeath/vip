@@ -1,6 +1,6 @@
 import svelte from '@astrojs/svelte'
 import tailwind from '@astrojs/tailwind'
-import vercel from '@astrojs/vercel/serverless'
+import '@astrojs/vercel/serverless'
 import swup from '@swup/astro'
 import Compress from 'astro-compress'
 import icon from 'astro-icon'
@@ -26,8 +26,6 @@ const oklchToHex = str => {
 export default defineConfig({
   site: 'https://vip-shadesofdeath.vercel.app/',
   base: '/',
-  output: 'server',
-  adapter: vercel(),
   integrations: [
     tailwind(),
     swup({

@@ -12,8 +12,8 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
     url: '/about',
   },
   [LinkPreset.ognitorenks]: {
-    name: i18n(I18nKey.about),
-    url: '/about',
+    name: i18n(I18nKey.ognitorenks),
+    url: '/ognitorenks',
   },
   [LinkPreset.Archive]: {
     name: i18n(I18nKey.archive),

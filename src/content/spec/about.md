@@ -3,7 +3,7 @@
 > - [Github](https://github.com/shadesofdeath)
 > - [Instagram](https://www.instagram.com/_berkay.ay/)
 
-> # Tavsiye Siteler
+ # Tavsiye Siteler
 > ### OgnitorenKs
 > #### Blog sayfasında sistem düzenleme ve batch kodlama dilinde hazırladığı çalışmaları paylaşıyor Bilgilendirici içerikler paylaşıyor.
 > - [Website](https://ognitorenks.blogspot.com/)

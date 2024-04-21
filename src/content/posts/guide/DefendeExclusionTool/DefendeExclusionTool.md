@@ -3,6 +3,7 @@ title: Defender Dışlama Aracı v1.0
 published: 2024-04-11
 description: Windows Defender dışlama listesine dosya veya klasör ekeyip çıkartmayı sağlayan araç.
 tags: [Windows Defender]
+image: ./21b16af688f8c70358a22d25f86b2cd2.png
 category: Windows Tools
 draft: false
 ---

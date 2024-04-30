@@ -49,7 +49,6 @@ export default defineConfig({
       Image: false,
     }),
     svelte(),
-    sitemap(),
   ],
   markdown: {
     remarkPlugins: [remarkMath, remarkReadingTime],

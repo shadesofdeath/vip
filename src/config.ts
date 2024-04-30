@@ -7,9 +7,9 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'ShadesOfDeath',
-  subtitle: 'Blog',
-  lang: 'tr',
+  title: 'Fuwari',
+  subtitle: 'Demo Site',
+  lang: 'en',
   themeHue: 250,
   banner: {
     enable: false,
@@ -31,7 +31,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: 'GitHub',
-      url: 'https://github.com/shadesofdeath',
+      url: 'https://github.com/saicaca/fuwari',
       external: true,
     },
   ],
@@ -39,18 +39,23 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png',
-  name: 'Berkay AY',
-  bio: 'Yaptığım uygulamaları paylaşmayı ve ekstradan insanları bilgilendirecek paylaşımlar yapıyorum..',
+  name: 'Lorem Ipsum',
+  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   links: [
     {
-      name: 'Instagram',
-      icon: 'fa6-brands:instagram',
-      url: 'https://www.instagram.com/_berkay.ay/',
+      name: 'Twitter',
+      icon: 'fa6-brands:twitter',
+      url: 'https://twitter.com',
+    },
+    {
+      name: 'Steam',
+      icon: 'fa6-brands:steam',
+      url: 'https://store.steampowered.com',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/shadesofdeath',
+      url: 'https://github.com/saicaca/fuwari',
     },
   ],
 }

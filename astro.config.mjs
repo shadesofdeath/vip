@@ -1,6 +1,5 @@
 import svelte from '@astrojs/svelte'
 import tailwind from '@astrojs/tailwind'
-import '@astrojs/vercel/serverless'
 import swup from '@swup/astro'
 import Compress from 'astro-compress'
 import icon from 'astro-icon'
@@ -24,7 +23,7 @@ const oklchToHex = str => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://vip-shadesofdeath.vercel.app/',
+  site: 'https://fuwari.vercel.app/',
   base: '/',
   integrations: [
     tailwind(),
@@ -50,6 +49,7 @@ export default defineConfig({
       Image: false,
     }),
     svelte(),
+    sitemap(),
   ],
   markdown: {
     remarkPlugins: [remarkMath, remarkReadingTime],
@@ -82,6 +82,20 @@ export default defineConfig({
     ],
   },
   vite: {
+    build: {
+      rollupOptions: {
+        onwarn(warning, warn) {
+          // temporarily suppress this warning
+          if (
+            warning.message.includes('is dynamically imported by') &&
+            warning.message.includes('but also statically imported by')
+          ) {
+            return
+          }
+          warn(warning)
+        },
+      },
+    },
     css: {
       preprocessorOptions: {
         stylus: {

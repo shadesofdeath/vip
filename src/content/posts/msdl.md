@@ -2,7 +2,7 @@
 title: Orjinal Windows ISO İndirme Aracı
 published: 2024-04-30
 description: Microsoft Windows sitesinden her zaman güncel iso dosyalarını indirmenizi sağlar.
-tags: [Windows 11, Windows 10, Windows 8.1]
+tags: [Windows Tools]
 category: Windows Tools
 draft: false
 ---
